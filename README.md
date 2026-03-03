@@ -1,16 +1,47 @@
-## Hi there 👋
+# Maykon Costa
 
-<!--
-**maykon-costa/maykon-costa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Dev **fullstack** (mais forte em **backend**) com foco em **Java/Spring** — evoluo sistemas **legados** e **críticos** buscando **alta disponibilidade**, performance e entregas sustentáveis.
 
-Here are some ideas to get you started:
+**Stack em destaque:** Java • Spring • Angular • TypeScript
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Stack
+
+**Backend**
+- **Java (legado e moderno)** • **Spring (Boot / MVC / Data)**
+- APIs REST • JPA/Hibernate • SQL • integração entre sistemas
+
+**Frontend**
+- **Angular** • **TypeScript**
+
+**Base**
+- Git • Docker • CI/CD • observabilidade
+
+---
+
+## Experiência (resumo)
+
+### Financiamento Imobiliário — CAIXA
+- Atuação em **manutenção e evolução** do sistema
+- Foco em estabilidade, correções e melhoria contínua
+
+### Gestão de Ferrovias — Vale (alta disponibilidade)
+- Evolução de **sistema legado crítico**, com entregas orientadas a impacto
+- Contribuição para **redução do tempo de carregamento de trens**, gerando economias relevantes
+- Participação na **transição para nuvem** e adoção de arquitetura moderna **baseada em microserviços**
+- Correção de bugs, desenvolvimento evolutivo e apoio a entregas
+- **Apresentações para clientes** (demandas, alinhamentos e soluções implementadas)
+
+### Previdência — Vale (migração de dados) — *Valia*
+- Migração de dados com foco em **criação e correção de scripts SQL**
+- Garantia de consistência e apoio à execução da migração
+
+### Apps internos — Vale
+- Correção de bugs e desenvolvimento evolutivo em sistema de gestão de uma seção específica da ferrovia
+
+---
+
+## Contato
+
+- LinkedIn: https://www.linkedin.com/in/maykon-costa/
