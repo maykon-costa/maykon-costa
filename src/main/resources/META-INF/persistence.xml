@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+                 http://java.sun.com/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+
+    <!--
+        Unidade de persistência para o módulo de importação CSV.
+
+        datasource: configure o JNDI do DataSource no standalone.xml / domain.xml do JBoss.
+        Exemplo: java:jboss/datasources/CargaDS
+
+        Nenhuma propriedade de DDL (hbm2ddl.auto) é definida aqui — a tabela
+        TB_REGISTRO_IMPORTACAO já existe e não deve ser alterada pela aplicação.
+    -->
+    <persistence-unit name="cargaPU" transaction-type="JTA">
+        <jta-data-source>java:jboss/datasources/CargaDS</jta-data-source>
+        <class>br.com.maykon.carga.model.RegistroImportacao</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <!-- Hibernate: log de SQL (desabilitar em produção) -->
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
+
+            <!--
+                Tamanho do batch JDBC para inserções. Deve ser igual ou múltiplo de
+                CargaService.TAMANHO_LOTE para aproveitar o batching do driver.
+            -->
+            <property name="hibernate.jdbc.batch_size" value="50"/>
+            <property name="hibernate.order_inserts" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
